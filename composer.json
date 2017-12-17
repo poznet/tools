@@ -1,0 +1,24 @@
+{
+    "name": "pozyc/tools",
+    "description": "Tools for  legacy projects",
+	"keywords": ["swiftmailer","google captcha"],
+	"homepage": "https://github.com/poznet/tools",
+    "type": "library",
+    "require": {
+	    "php": ">=5.3",
+        "swiftmailer/swiftmailer": "^6.0",
+		"symfony/http-foundation": "^2.0",
+    },
+	"autoload": {
+        "psr-0": {
+            "Poznet\\Tools": "src"
+    }
+	},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michał Glajc",
+            "email": "pozycjoner.net@gmail.com"
+        }
+    ]
+}
